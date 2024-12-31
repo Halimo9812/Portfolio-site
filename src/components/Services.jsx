@@ -1,12 +1,31 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
+import services from '../data/services.jsx'
+import Service from './Service.jsx'
+
 
 function Services () {
-  return (
-    <div className='py-12'>
-    <SectionTitle> My Services</SectionTitle>
-    </div>
-  )
-}
+    console.log('services:', services);
+    return (
+        <div className='py-12'>
+          <SectionTitle>My Services</SectionTitle>
+          <div>
+            {services && services.length > 0 ? (
+              services.map(service => (
+                <Service
+                  key={service.title}
+                  title={service.title}
+                  icon={service.icon}
+                  description={service.description}
+                />
+              ))
+            ) : (
+              <div>No services available</div>
+            )}
+          </div>
+        </div>
+      );
+    }
+    
 
 export default Services

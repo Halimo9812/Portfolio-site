@@ -1,12 +1,12 @@
 import React,{useEffect,useState} from 'react'
 import Hero from './components/Hero'
-import Services from './components/Services'
+import Services from './components/Services.jsx'
 
 function App() {
-  const[theme, setTheme] = useState(null)
+  const[theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if(window.matchMedia('(prefers-color-scheme:dark)').matches){
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
       setTheme('dark');
     } else{
       setTheme('light');
@@ -21,7 +21,7 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark') //this allows us to switch from dark to light mode
     }
-  },[])
+  },[theme]);
 
   const handleThemeSwitch = () => {
     setTheme(theme === 'dark'? 'light':'dark')
