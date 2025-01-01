@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import Hero from './components/Hero'
 import Services from './components/Services.jsx'
+import Projects from './components/Projects.jsx'
 
 function App() {
   const[theme, setTheme] = useState(null);
@@ -35,6 +36,7 @@ function App() {
       <div className='max-w-5xl mx-auto w-11/12'>
       <Hero></Hero>
       <Services></Services>
+      <Projects></Projects>
     </div>
     </div>
     </>
