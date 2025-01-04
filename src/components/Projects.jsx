@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className='py-12'>
       <SectionTitle id={'projects'}>Recent Projects</SectionTitle>
-      <div>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         {projects.map(project => {
           console.log('Rendering project:', project);  // Debugging statement to check data
           return (

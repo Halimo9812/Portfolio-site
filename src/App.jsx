@@ -2,6 +2,9 @@ import React,{useEffect,useState} from 'react'
 import Hero from './components/Hero'
 import Services from './components/Services.jsx'
 import Projects from './components/Projects.jsx'
+import About from './components/About'
+import Footer from './components/Footer'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   const[theme, setTheme] = useState(null);
@@ -37,6 +40,8 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <Projects></Projects>
+      <About></About>
+      <Footer></Footer>
     </div>
     </div>
     </>

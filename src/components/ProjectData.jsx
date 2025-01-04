@@ -5,7 +5,7 @@ const ProjectData = ({ imgUrl, title, tech, demoUrl }) => {
   console.log('ProjectData received:', { imgUrl, title, tech, demoUrl });  // Debugging
 
   return (
-    <div className='bg-slate-300 dark:bg-slate-800  border-gray-200 rounded-md shadow-md' >
+    <div className='bg-slate-300 dark:bg-slate-800  border-gray-200 rounded-md shadow-md overflow-hidden' >
       <img src={imgUrl} alt={title} className="w-full h-36 md:h-48 object-cover" />
       <div className=' text-gray-600 dark:text-gray-300 p-5 w-full'>
       <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold  text-gray-600 dark:text-gray-300">{title}</h3>

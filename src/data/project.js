@@ -8,7 +8,7 @@ const projects = [
       title: 'Static Fashion Blog',
       imgUrl: '/Fashion-blog.png',
       tech: ['HTML', 'CSS'],
-      demoUrl: 'https://hatodo-app.netlify.app/',
+      demoUrl: 'https://inspiring-arithmetic-c58158.netlify.app/',
     },
     {
       id: 2,
@@ -31,13 +31,7 @@ const projects = [
       tech: ['HTML', 'CSS', 'JavaScript'],
       demoUrl: 'https://hatodo-app.netlify.app/',
     },
-    {
-      id: 5,
-      title: 'Simple Wireframe Hero Section',
-      imgUrl: 'Hero.png',
-      tech: ['Figma'],
-      demoUrl: '#',
-    },
+    
   ];
 
   export default projects;

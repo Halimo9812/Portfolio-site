@@ -6,20 +6,21 @@ const services = [
     {
        title: 'Frontend Developer',
        icon: <MdWeb className='w-full h-full'></MdWeb>,
-       description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam nulla dolor, quisquam vel modi voluptates dicta quaerat asperiores eum non doloribus totam sint in iste neque reprehenderit officiis corrupti vitae!',
+       description: 'For front-end I use HTML,CSS, and Javascript. Frameworks I use are React and Tailwind CSS'
+       ,
        
     },
 
     {
         title: 'Backend Developer',
         icon: <MdWeb className='w-full h-full'></MdWeb>,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam nulla dolor, quisquam vel modi voluptates dicta quaerat asperiores eum non doloribus totam sint in iste neque reprehenderit officiis corrupti vitae!',
+        description: 'For back-end, I use MERN stack, MongoDB, Express, and Node',
         
      },
     {
         title: 'Ui Design',
         icon: <FaHandHoldingHeart className='w-full h-full'></FaHandHoldingHeart>,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam nulla dolor, quisquam vel modi voluptates dicta quaerat asperiores eum non doloribus totam sint in iste neque reprehenderit officiis corrupti vitae!',
+        description: 'I use Figma and Webflow for creating wireframes.',
         
      }
  ];
