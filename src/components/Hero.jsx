@@ -31,7 +31,7 @@ const Hero = () => {
           </a>
           {/* Resume Icon */}
           <a
-            href="/path/to/my/resume.pdf"  
+            href="/resume.pdf"  
             target="_blank"
             rel="noopener noreferrer"
             className="mx-4 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
